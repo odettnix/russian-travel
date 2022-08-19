@@ -1,0 +1,21 @@
+.lead {
+    max-width: 984px;
+    margin: 0 auto 92px;
+    padding: 0 48px;
+    box-sizing: border-box;
+    color: white;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+  }
+  @media screen and (max-width: 768px) {
+    .lead {
+      padding: 0;
+      margin-bottom: 88px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .lead {
+      margin-bottom: 64px;
+    } 
+  }

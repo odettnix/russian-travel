@@ -1,0 +1,12 @@
+.place__website{
+    align-self: end;
+    justify-self: start;
+}
+
+@media screen and (max-width: 600px) {
+  .place__website {
+    margin-left: 16px;
+  }
+}
+
+

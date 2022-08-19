@@ -1,0 +1,24 @@
+.intro{
+    display: flex;
+    align-items: flex-start;
+    max-width: 928px;
+    margin: 0 auto 92px;
+    padding: 0 48px;
+    flex-direction: column;
+    color: white;
+    font-family: Inter;
+  }
+
+  @media screen and (max-width: 769px) {
+  .intro{
+    padding: 0 24px;
+    max-width: 720px;
+    margin-bottom: 88px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro{
+    padding: 0 16px;
+    margin-bottom: 64px;
+  }
+}
