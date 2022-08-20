@@ -1,4 +1,4 @@
-.header__lang-link{
+.header__lang-link {
     text-decoration: none;
     color: white;
     font-weight: 400;
@@ -8,14 +8,14 @@
     transition: opacity .5s linear;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
-    
+
 }
 
-.header__lang-link:hover{
+.header__lang-link:hover {
     opacity: 0.8;
 }
 
-.header__lang-link:last-of-type{
+.header__lang-link:last-of-type {
     margin-right: 0;
 }
 

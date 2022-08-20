@@ -1,29 +1,28 @@
-.intro{
-    display: flex;
-    align-items: flex-start;
-    width: calc(100% - 2*148px);
-    margin: 0 auto 92px;
-    flex-direction: column;
-    color: white;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-  }
+.intro {
+  display: flex;
+  align-items: flex-start;
+  width: calc(100% - 2*148px);
+  margin: 0 auto 92px;
+  flex-direction: column;
+  color: white;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
 
-  @media screen and (max-width: 1024px) {
-    .intro{
-      width: calc(100% - 2*48px);
-      margin-bottom: 88px;
-    }
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: calc(100% - 2*48px);
   }
+}
 
-  @media screen and (max-width: 769px) {
-  .intro{
+@media screen and (max-width: 769px) {
+  .intro {
     width: calc(100% - 2*24px);
     margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .intro{
+  .intro {
     width: calc(100% - 2*16px);
     margin-bottom: 64px;
   }
