@@ -6,7 +6,7 @@
     line-height: 1.17;
     margin-right: 18px;
     transition: opacity .5s linear;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     
 }
